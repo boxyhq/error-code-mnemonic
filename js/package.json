@@ -1,6 +1,6 @@
 {
   "name": "@boxyhq/error-code-mnemonic",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "JavaScript implementation of Bitcoin BIP39 (mnemonic only) for use as a friendly error identifier",
   "main": "index.js",
   "files": [
