@@ -4,7 +4,7 @@ const { words } = require("./src/words");
 const { binaryToByte, bytesToBinary } = require("./src/utils");
 
 function randomBytes(byteLength) {
-  return crypto.getRandomValues(new Uint8Array(byteLength));
+  return crypto.webcrypto.getRandomValues(new Uint8Array(byteLength));
 }
 
 async function deriveChecksumBits(entropy) {
