@@ -19,6 +19,6 @@
   "license": "Apache-2.0",
   "dependencies": {},
   "devDependencies": {
-    "prettier": "2.8.4"
+    "prettier": "3.6.2"
   }
 }
